@@ -1,0 +1,2 @@
+first=0 (garbage), second=10
+run exit code: 0

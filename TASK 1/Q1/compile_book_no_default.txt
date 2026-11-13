@@ -1,0 +1,15 @@
+Q1/book_no_default.cpp: In function 'int main()':
+Q1/book_no_default.cpp:9:17: error: no matching function for call to 'Book::Book()'
+    9 |     Book shelf[3];      // ERROR: no matching function for call to 'Book::Book()'
+      |                 ^
+Q1/book_no_default.cpp:6:5: note: candidate: 'Book::Book(const std::string&, int)'
+    6 |     Book(const std::string& t, int c) : title(t), copies(c) {}
+      |     ^~~~
+Q1/book_no_default.cpp:6:5: note:   candidate expects 2 arguments, 0 provided
+Q1/book_no_default.cpp:3:7: note: candidate: 'Book::Book(const Book&)'
+    3 | class Book {
+      |       ^~~~
+Q1/book_no_default.cpp:3:7: note:   candidate expects 1 argument, 0 provided
+Q1/book_no_default.cpp:3:7: note: candidate: 'Book::Book(Book&&)'
+Q1/book_no_default.cpp:3:7: note:   candidate expects 1 argument, 0 provided
+compile exit code: 1

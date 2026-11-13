@@ -1,0 +1,8 @@
+Q1/explicit_demo.cpp: In function 'int main()':
+Q1/explicit_demo.cpp:16:17: error: invalid initialization of reference of type 'const Book&' from expression of type 'std::string' {aka 'std::__cxx11::basic_string<char>'}
+   16 |     shelve(std::string("Gitanjali"));   // implicit conversion string -> Book
+      |                 ^~~~~~~~~~~~~~~~~~~
+Q1/explicit_demo.cpp:14:25: note: in passing argument 1 of 'void shelve(const Book&)'
+   14 | void shelve(const Book& b) { std::cout << "Shelved: " << b.getTitle() << '\n'; }
+      |             ~~~~~~~~~~~~^
+compile exit code: 1

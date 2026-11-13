@@ -1,0 +1,18 @@
+Q1/reorder_demo.cpp: In constructor 'Bad::Bad()':
+Q1/reorder_demo.cpp:5:9: warning: 'Bad::second' will be initialized after [-Wreorder]
+    5 |     int second;
+      |         ^~~~~~
+Q1/reorder_demo.cpp:4:9: warning:   'int Bad::first' [-Wreorder]
+    4 |     int first;
+      |         ^~~~~
+Q1/reorder_demo.cpp:6:5: warning:   when initialized here [-Wreorder]
+    6 |     Bad() : second(10), first(second * 2) {}   // first is initialised BEFORE second
+      |     ^~~
+Q1/reorder_demo.cpp:6:31: warning: member 'Bad::second' is used uninitialized [-Wuninitialized]
+    6 |     Bad() : second(10), first(second * 2) {}   // first is initialised BEFORE second
+      |                               ^~~~~~
+Q1/reorder_demo.cpp: In constructor 'Bad::Bad()':
+Q1/reorder_demo.cpp:6:31: warning: '*this.Bad::second' is used uninitialized [-Wuninitialized]
+    6 |     Bad() : second(10), first(second * 2) {}   // first is initialised BEFORE second
+      |                               ^~~~~~
+compile exit code: 0
