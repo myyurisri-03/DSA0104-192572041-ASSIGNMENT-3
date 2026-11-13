@@ -1,0 +1,9 @@
+Hello, SMS Gateway
+true true
+[]
+Hello, SMS Gateway
+Copy-constructor calls so far: 0
+Long message built (10,000 characters)
+Text        (t = t + x) x100000 : 558.338 ms
+std::string (s = s + x) x100000 : 96.0686 ms
+run exit code: 0

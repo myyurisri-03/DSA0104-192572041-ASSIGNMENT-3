@@ -1,0 +1,7 @@
+Hello, SMS Gateway
+true true
+[]
+Hello, SMS Gateway
+Copy-constructor calls so far: 0
+Long message built (10,000 characters)
+run exit code: 0
