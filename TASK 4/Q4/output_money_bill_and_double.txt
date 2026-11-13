@@ -1,0 +1,5 @@
+Bill total: Rs 539.41
+Money  after 1,000,000 x Rs 0.10 : Rs 100000.00  (5.1e-05 ms)
+double after 1,000,000 x 0.10    : 100000.000001  (0.51624 ms)
+double error = 1.33288267534e-06
+run exit code: 0

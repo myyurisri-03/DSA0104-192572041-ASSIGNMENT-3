@@ -1,0 +1,5 @@
+Rs 200.00
+true
+Rs 1.25
+-Rs 3.50
+run exit code: 0
