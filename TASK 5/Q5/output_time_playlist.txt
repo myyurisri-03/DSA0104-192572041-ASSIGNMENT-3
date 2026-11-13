@@ -1,0 +1,6 @@
+a=0:59:58 b=1:00:00 t=1:00:00
+true true
+Track 1 Track 2
+Error: playlist index out of range
+Error: playlist index out of range
+run exit code: 0
