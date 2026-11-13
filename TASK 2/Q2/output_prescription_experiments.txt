@@ -1,0 +1,12 @@
+Pass by value:
+  [copy constructor called]
+Pass by const reference:
+Total copies = 1 (expected 1)
+
+After p = p : ABC (unchanged)
+
+Deep-copy timing (average of 20 copies, copy messages suppressed in count)
+n = 10 : 0.1088 microseconds per copy
+n = 1000 : 6.8003 microseconds per copy
+n = 100000 : 773.529 microseconds per copy
+run exit code: 0
