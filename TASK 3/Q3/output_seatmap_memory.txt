@@ -1,0 +1,4 @@
+   10 x 20    : 280 bytes requested in 11 allocations (rows*(8+cols) = 280)
+  100 x 200   : 20800 bytes requested in 101 allocations (rows*(8+cols) = 20800)
+ 1000 x 2000  : 2008000 bytes requested in 1001 allocations (rows*(8+cols) = 2008000)
+run exit code: 0

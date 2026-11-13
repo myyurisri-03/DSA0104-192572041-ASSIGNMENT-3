@@ -1,0 +1,2 @@
+10 of 12 seats (1 allocation, no destructor needed)
+run exit code: 0

@@ -1,0 +1,9 @@
++Event Stack (2x3)
++Event Block (1x2)
+-Event Block summary: 1 of 2 seats booked
++Event Heap (3x3)
+-Event Heap summary: 1 of 9 seats booked
++Event Empty (0x5)
+-Event Empty summary: 0 of 0 seats booked
+-Event Stack summary: 1 of 6 seats booked
+run exit code: 0
