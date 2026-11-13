@@ -1,0 +1,4 @@
+Series   : (10,-10)  |Z| = 14.1421
+Parallel : (8,4)  |Z| = 8.94427
+R / 0    : (inf,-nan)
+run exit code: 0

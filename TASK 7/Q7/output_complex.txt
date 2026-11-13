@@ -1,0 +1,5 @@
+Series   : 10.0000 - 10.0000j  |Z| = 14.1421
+Parallel : 8.0000 + 4.0000j  |Z| = 8.9443
+true
+Error: division by zero impedance
+run exit code: 0
